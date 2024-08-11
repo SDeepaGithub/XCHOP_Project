@@ -1,0 +1,212 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #0072B4;
+    padding: 10px 0;
+}
+
+#headerLogo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.headerContent {
+    color: white;
+    font-weight: bold;
+}
+
+.headerContent ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.headerContent li {
+    padding-right: 15px;
+}
+
+.headerContent i {
+    color: white;
+    padding-right: 10px;
+}
+
+.headerBox {
+    padding: 5px;
+    gap: 0px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background: #005D93;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.mobileIcon i {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.headerNav {
+    background: #005687;
+    border-bottom: 3px solid #003E61;
+    width: auto;
+    height: 58px;
+    gap: 0px;
+    border: 0px 0px 3px 0px;
+    opacity: 0px;
+
+}
+
+.headerNavList ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 14%;
+    font-weight: bold;
+}
+
+.headerNavList i {
+    color: white;
+    padding-left: 5px;
+
+}
+
+.headerNavList li {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.mathTutorContent {
+    color: white;
+    padding: 20px;
+}
+
+
+.mathTutorContent1 {
+    margin-bottom: 20px;
+    font-family: Noto Serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mathTutorContent2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mathTutorContent3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .mathTutorContent1, .mathTutorContent2, .mathTutorContent3 {
+        padding-left: 81px;
+    }
+
+    .mathTutorContent1{
+        margin-bottom: 80px;
+    }
+    .mathTutorContent2 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+        width: 600px;
+    }
+
+    .mathTutorContent3 {
+        font-size: 2rem;
+        width: 560px;
+    }
+}
+
+
+
+@media (min-width: 800px) {
+    .headerLogoDiv {
+        display: inline-block;
+        width: 450px;
+        margin-left: 220px
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+    .headerBox {
+        margin-left: 50px;
+    }
+
+    .mobileIcon {
+        display: none;
+    }
+}
+
+@media (min-width: 1300px) {
+    .headerLogoDiv {
+        display: inline-block;
+        width: 850px;
+    }  
+    
+}
+@media (max-width: 790px) {
+    #headerLogo {
+        max-width: 150px;
+        padding: 15px;
+    }
+
+    .headerContent ul {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 0px;
+    }
+
+    .headerContent li {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .headerBox {
+        display: none;
+    }
+
+    .headerLogoDiv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerNav {
+        display: none;
+    }
+
+    .headerNavList {
+        width: Fixed (1, 030px)px;
+        height: Fixed (55px)px;
+        left: 197.5px;
+        gap: 26.41px;
+        opacity: 0px;
+
+    }
+
+    .mathTutorContent1 {
+        display: none;
+    }
+}
