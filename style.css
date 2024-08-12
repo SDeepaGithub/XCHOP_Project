@@ -117,14 +117,61 @@ body {
     text-align: left;
 }
 
+.section2 {
+    width: 100%;
+    display: block;
+    background: #a7cadd;
+}
+
+.section2 .content {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section2 .content h3 {
+    font-family: Noto Serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #0072B4;
+}
+
+.section2 .content p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Noto Serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.imageContent img {
+    width: 170px;
+    height: 176.14px;
+}
+
+.imageContent p {
+    max-width: 300px;
+
+}
+
+.imageContent h5 {
+    margin-top: 10px;
+}
+
 @media (min-width: 768px) {
-    .mathTutorContent1, .mathTutorContent2, .mathTutorContent3 {
+
+    .mathTutorContent1,
+    .mathTutorContent2,
+    .mathTutorContent3 {
         padding-left: 81px;
     }
 
-    .mathTutorContent1{
+    .mathTutorContent1 {
         margin-bottom: 80px;
     }
+
     .mathTutorContent2 {
         font-size: 3rem;
         margin-bottom: 30px;
@@ -164,9 +211,10 @@ body {
     .headerLogoDiv {
         display: inline-block;
         width: 850px;
-    }  
-    
+    }
+
 }
+
 @media (max-width: 790px) {
     #headerLogo {
         max-width: 150px;
@@ -208,5 +256,14 @@ body {
 
     .mathTutorContent1 {
         display: none;
+    }
+
+    .imageContent .carousel-item {
+        align-items: center;
+
+    }
+
+    .imageContent p {
+        text-align: center;
     }
 }
