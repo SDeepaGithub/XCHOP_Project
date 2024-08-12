@@ -211,6 +211,26 @@ body {
     margin: 0 5px;
 }
 
+.footer{
+    background: #27268E;
+height: 500px;
+gap: 25px;
+color: white;
+
+
+}
+
+.footer h6{
+    font-weight: 300;
+}
+
+.footerContent2 .row{
+    justify-content: center;
+}
+
+.footerContent2 img{
+    padding:20px 10px;
+}
 @media (min-width: 768px) {
 
     .mathTutorContent1,
